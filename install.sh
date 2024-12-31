@@ -86,6 +86,7 @@ if [ ! -d /userdata/system/.dev/apps/ps4 ]; then
     cd ..
     rm OS 
     rm -r SYS
+    batocera-save-overlay
     clear
     echo -e "${BOLD_GREEN}JC GAMES CLASSICOS LEVEL UP 2024/2025${RESET}"
     echo "INSTALAÇÃO CONCLUIDA, ATUALIZANDO O SISTEMA..."
