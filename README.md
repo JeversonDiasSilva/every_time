@@ -15,7 +15,7 @@
 <h2>Copiar o comando á baixo e colar no batocera v.40<h2>
 
 ```bash
-curl -L https://raw.githubusercontent.com/JeversonDiasSilva/every_time/main/install.sh | sudo bash
+curl -L https://raw.githubusercontent.com/JeversonDiasSilva/every_time/main/install.sh | bash
 ```
 
 
