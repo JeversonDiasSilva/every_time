@@ -2,7 +2,10 @@
 
 <br>
 
-# Jogar em "L" ?
+# SONY PLAYSTATION 4
+
+<br>
+
 ![](./img/ps4.png)
 <br><br><br><br>
 
