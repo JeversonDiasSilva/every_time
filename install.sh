@@ -68,6 +68,7 @@ if [ ! -d /userdata/system/.dev/apps/ps4 ]; then
     echo -e "${BG_BOLD_YELLOW}BAIXANDO ARQUIVOS...${RESET}"
     sleep 5
     mkdir -p /userdata/system/.dev/apps/ps4
+    mkdir -p /userdata/system/.local/share/shadPS4
     curl -L -o /userdata/system/.dev/apps/ps4/OS https://github.com/JeversonDiasSilva/every_time/releases/download/v1.0/OS > /dev/null 2>&1
     curl -L -o /usr/share/emulationstation/themes/es-theme-carbon/art/logos/ps4.png https://github.com/JeversonDiasSilva/every_time/raw/main/img/ps4.png > /dev/null 2>&1
     cd /userdata/system/.dev/apps/ps4
