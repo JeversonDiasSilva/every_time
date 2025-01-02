@@ -75,8 +75,9 @@ if [ ! -d /userdata/system/.dev/apps/ps4 ]; then
     unsquashfs -d SYS OS > /dev/null 2>&1
     cd /userdata/system/.dev/apps/ps4/SYS
     chmod +x ps4.AppImage
-    ln -s /userdata/system/.dev/apps/ps4/ps4.AppImage /usr/bin/ps4
+    # Sergio Graças of (Parceiroa da emulação)
     mv ps4.AppImage "/userdata/system/.dev/apps/ps4"
+    ln -s /userdata/system/.dev/apps/ps4/ps4.AppImage /usr/bin/ps4
     mv es_systems_ps4.cfg /userdata/system/configs/emulationstation
     chattr +i -R /userdata/system/configs/emulationstation/es_systems_ps4.cfg
     mkdir -p /userdata/roms/ps4
