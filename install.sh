@@ -85,6 +85,9 @@ if [ ! -d /userdata/system/.dev/apps/ps4 ]; then
     mv CUSA07010 /userdata/roms/ps4
     chmod +x XPS4
     mv XPS4 /usr/bin
+    chomod +x kill4
+    mv kill4 /usr/bin
+    mv ps4_kill /userdata/system/.dev/scripts
     cd ..
     rm OS 
     rm -r SYS
@@ -97,7 +100,7 @@ if [ ! -d /userdata/system/.dev/apps/ps4 ]; then
     echo -e "${BOLD_CYAN}JC GAMES CLASSICOS LEVEL UP 2024/2025${RESET}"
     echo "INSTALAÇÃO CONCLUIDA, ATUALIZANDO O SISTEMA..."
     sleep 1
-        clear
+    clear
     echo -e "${BOLD_GREEN}JC GAMES CLASSICOS LEVEL UP 2024/2025${RESET}"
     echo ""
     sleep 1
