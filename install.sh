@@ -87,6 +87,7 @@ if [ ! -d /userdata/system/.dev/apps/ps4 ]; then
     mv XPS4 /usr/bin
     chomod +x kill4
     mv kill4 /usr/bin
+    mkdir -p /userdata/system/.dev/scripts
     mv ps4_kill /userdata/system/.dev/scripts
     cd ..
     rm OS 
