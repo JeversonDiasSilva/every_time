@@ -1,4 +1,4 @@
-#!/bin/bash
+##!/bin/bassh
 # Curitiba 31 de Dezembro de 2024
 # Editor e desenvolvedor Jeverson Dias da Silva, ............Youtube/@JCGAMESCLASSICOS
 # dealizador e desenvolvedor Lindoel Lima, ........Youtube/@Lin2705.......Instagram/@lindoel_lima
